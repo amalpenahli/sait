@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) {
+       Scanner scan  = new Scanner(System.in);
+       String[] sait = {"a", "e", "ə", "o", "ö","i","ı","u","ü"};
+       for (int i = 0; i< sait.length;i++){
+           switch (sait[i]){
+               case "a","e","ə","o","ö" -> System.out.println("qapali");
+               case "i","ı","u","ü" -> System.out.println("aciq");
+           }
+       }
+
+    }
+}
